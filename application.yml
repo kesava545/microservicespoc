@@ -1,1 +1,6 @@
-message: "Hello from Config Server"
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/main_db
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
